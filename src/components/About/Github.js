@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 const HeatmapCell = ({ intensity }) => {
-  const colors = ['#ebedf0', '#c084f5', '#8957e5', '#6e40c9', '#5a189a'];
+  const colors = ['#F5EEF8', '#EBDEF0', '#D7BDE2', '#C39BD3', '#AF7AC5'];
   const color = colors[intensity];
 
   return (
@@ -73,11 +73,11 @@ function Github() {
         <Heatmap />
         <div style={{ textAlign: 'center', marginTop: '8px' }}>
           <span style={{ marginRight: '16px' }}>Less</span>
-          <span style={{ display: 'inline-block', width: '16px', height: '16px', backgroundColor: '#ebedf0', marginRight: '4px', border: '1px solid #333', boxSizing: 'border-box', borderRadius: '4px' }}></span>
-          <span style={{ display: 'inline-block', width: '16px', height: '16px', backgroundColor: '#c084f5', marginRight: '4px', border: '1px solid #333', boxSizing: 'border-box', borderRadius: '4px' }}></span>
-          <span style={{ display: 'inline-block', width: '16px', height: '16px', backgroundColor: '#8957e5', marginRight: '4px', border: '1px solid #333', boxSizing: 'border-box', borderRadius: '4px' }}></span>
-          <span style={{ display: 'inline-block', width: '16px', height: '16px', backgroundColor: '#6e40c9', marginRight: '4px', border: '1px solid #333', boxSizing: 'border-box', borderRadius: '4px' }}></span>
-          <span style={{ display: 'inline-block', width: '16px', height: '16px', backgroundColor: '#5a189a', marginRight: '4px', border: '1px solid #333', boxSizing: 'border-box', borderRadius: '4px' }}></span>
+          <span style={{ display: 'inline-block', width: '16px', height: '16px', backgroundColor: '#F5EEF8', marginRight: '4px', border: '1px solid #333', boxSizing: 'border-box', borderRadius: '4px' }}></span>
+          <span style={{ display: 'inline-block', width: '16px', height: '16px', backgroundColor: '#EBDEF0', marginRight: '4px', border: '1px solid #333', boxSizing: 'border-box', borderRadius: '4px' }}></span>
+          <span style={{ display: 'inline-block', width: '16px', height: '16px', backgroundColor: '#D7BDE2', marginRight: '4px', border: '1px solid #333', boxSizing: 'border-box', borderRadius: '4px' }}></span>
+          <span style={{ display: 'inline-block', width: '16px', height: '16px', backgroundColor: '#C39BD3', marginRight: '4px', border: '1px solid #333', boxSizing: 'border-box', borderRadius: '4px' }}></span>
+          <span style={{ display: 'inline-block', width: '16px', height: '16px', backgroundColor: '#AF7AC5', marginRight: '4px', border: '1px solid #333', boxSizing: 'border-box', borderRadius: '4px' }}></span>
           <span>More</span>
         </div>
       </Col>
