@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://kashishdatta.wordpress.com"
+                href="https://medium.com/@kashishdatta01"
                 target="_blank"
                 rel="noreferrer"
               >
